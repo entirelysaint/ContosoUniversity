@@ -20,12 +20,14 @@
 ####################
 UpgradeLog.XML
 _UpgradeReport_Files/
+.vs/
 ###############
 # Directories #
 ###############
 bin/
 obj/
 TestResults/
+Properties/
 ###################
 # Web publish log #
 ###################

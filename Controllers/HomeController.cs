@@ -1,20 +1,39 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ContosoUniversity.Models;
+using ContosoUniversity.Data;
+using System.Threading.Tasks;
+using ContosoUniversity.SchoolViewModels;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace ContosoUniversity.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly SchoolContext _context;
+
+        public HomeController(SchoolContext context)
         {
-            return View();
+            _context = context;
         }
 
-        public IActionResult About()
+        public async Task<ActionResult> About()
         {
-            ViewData["Message"] = "Your application description page.";
+            IQueryable<EnrollmentDateGroup> data =
+                from student in _context.Students
+                group student by student.EnrollmentDate into dateGroup
+                select new EnrollmentDateGroup()
+                {
+                    EnrollmentDate = dateGroup.Key,
+                    StudentCount = dateGroup.Count()
+                };
 
+            return View(await data.AsNoTracking().ToListAsync());
+        }
+
+        public IActionResult Index()
+        {
             return View();
         }
 

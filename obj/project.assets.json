@@ -12627,11 +12627,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yqylk\\Desktop\\ContosoUniversity001\\ContosoUniversity.csproj",
+      "projectUniqueName": "C:\\Users\\yqylk\\Desktop\\ContosoUniversity\\ContosoUniversity.csproj",
       "projectName": "ContosoUniversity",
-      "projectPath": "C:\\Users\\yqylk\\Desktop\\ContosoUniversity001\\ContosoUniversity.csproj",
+      "projectPath": "C:\\Users\\yqylk\\Desktop\\ContosoUniversity\\ContosoUniversity.csproj",
       "packagesPath": "C:\\Users\\yqylk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yqylk\\Desktop\\ContosoUniversity001\\obj\\",
+      "outputPath": "C:\\Users\\yqylk\\Desktop\\ContosoUniversity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yqylk\\AppData\\Roaming\\NuGet\\NuGet.Config",

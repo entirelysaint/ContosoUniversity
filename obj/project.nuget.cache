@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RhtDNJDpJAawUBrdoZCW4iP+Z5XiEq2aVjOnm3HTqs2iz/A0ifQgoN6bDBSazj5ucivb+xUwxjp7jMoZZvA2JA==",
+  "dgSpecHash": "1nhwUOFFvHjrxs6stwCvjuxlHLoLoeEUHxcMDrsteNUKWQDYoA45g2HR/gqddOiPrqEIq311Bh7dRhQTkCAtGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yqylk\\Desktop\\ContosoUniversity001\\ContosoUniversity.csproj",
+  "projectFilePath": "C:\\Users\\yqylk\\Desktop\\ContosoUniversity\\ContosoUniversity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yqylk\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\yqylk\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
